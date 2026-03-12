@@ -1,8 +1,4 @@
 {
-  "packageManager": "pnpm@8.15.4"
-}
-
-{
   "name": "react_repo",
   "private": true,
   "version": "0.0.0",
