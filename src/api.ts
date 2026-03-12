@@ -1,5 +1,5 @@
 // 前端 API 服务 - 连接后端
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://ai-scheduler-backend-cpwy.vercel.app/";
 
 export interface Order {
   id: string;
@@ -41,4 +41,5 @@ export async function createSchedule(orders: Order[], furnaces: Furnace[]): Prom
 export async function checkHealth() {
   const response = await fetch(`${API_BASE}/health`);
   return response.json();
+
 }
