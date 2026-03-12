@@ -13,7 +13,7 @@ interface Furnace {
 }
 
 // API 配置 - 后端地址
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://ai-scheduler-backend-cpwy.vercel.app/";
 
 export default function SchedulingPage() {
   const [heatPlans] = useState<HeatPlan[]>(mockHeatPlans);
