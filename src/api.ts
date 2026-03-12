@@ -1,5 +1,5 @@
 // 前端 API 服务 - 连接后端
-const API_BASE = "https://ai-scheduler-backend-cpwy.vercel.app/";
+const API_BASE = "https://ai-scheduler-backend-cpwy.vercel.app";
 
 export interface Order {
   id: string;
@@ -43,3 +43,4 @@ export async function checkHealth() {
   return response.json();
 
 }
+
